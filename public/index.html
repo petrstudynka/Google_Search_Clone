@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="./../src/index.ts" async defer></script>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="dialog">
+        <div class="dialog-message"></div>
+        <div class="dialog-button">
+          <button class="btn btn--default btn--orange btn--lg">OK</button>
+        </div>
+      </div>
+    </div>
+    <div class="page-container">
+      <div class="search">
+        <div class="search-form">
+          <input
+            class="input input--rounded border-radius-left"
+            type="text"
+            placeholder="Search..."
+            maxlength="2048"
+            required
+          />
+          <button
+            class="btn btn--blue btn--medium border-radius-right border-white svg"
+          >
+            <img
+              class="icon i-spinner icon--hidden"
+              src="./assets/img/spinner.svg"
+            />
+            <img
+              class="icon i-search"
+              src="./assets/img/search-white-36dp.svg"
+            />
+          </button>
+        </div>
+
+        <div class="search-result">
+          <div class="search-result__tabs">
+            <a class="tab-item tab-images">Images</a>
+            <a class="tab-item tab-links">Links</a>
+          </div>
+          <div class="search-result__content">
+            <div class="search-result__img"></div>
+            <div class="search-result__url"></div>
+          </div>
+          <div class="search-paging">
+            <div class="search-paging__list">
+              <div class="paging-item paging-item--previous">
+                <a class="btn btn--default btn--orange">Previous</a>
+              </div>
+              <div class="paging-item paging-item--current selected">
+                Page<span class="paging-item selected-page">1</span>
+              </div>
+              <div class="paging-item paging-item--next">
+                <a class="btn btn--default btn--orange">Next</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+  </body>
+</html>

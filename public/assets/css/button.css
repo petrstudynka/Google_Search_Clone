@@ -1,0 +1,58 @@
+.btn {
+  display: block;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 0.9rem;
+  line-height: 0;
+  outline: none;
+}
+
+.btn--sharp {
+  border-radius: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--blue {
+  background-color: rgb(55, 129, 187, 1);
+}
+
+.btn--blue:hover {
+  background-color: rgb(66, 150, 214);
+}
+
+.btn--default {
+  padding: 13px 13px;
+  color: white;
+  background-color: orange;
+  border-radius: none;
+}
+
+.btn--orange {
+  background-color: #bd7d07;
+}
+
+.btn--orange:hover {
+  background-color: #d18b09;
+}
+
+.btn--disabled {
+  background-color: #cccccc;
+}
+
+.btn--disabled:hover {
+  background-color: #cccccc;
+  cursor: default;
+}
+
+.btn--hidden {
+  visibility: hidden;
+}
+
+.btn--lg {
+  padding: 13px 25px;
+  font-size: 0.9rem;
+}

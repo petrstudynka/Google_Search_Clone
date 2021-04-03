@@ -1,0 +1,35 @@
+.search-paging {
+  margin: 2rem auto 5rem;
+  display: none;
+}
+
+.search-paging.active {
+  display: block;
+}
+
+.search-paging__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.paging-item.selected-page {
+  padding: 0 5px;
+  color: #000069;
+  font-size: 1rem;
+}
+
+.paging-item.selected {
+  padding: 0 25px;
+  height: min-content;
+  margin: auto;
+}
+
+.paging-item--last {
+  margin-left: 30px;
+}
+
+.paging-item--first {
+  margin-right: 30px;
+}

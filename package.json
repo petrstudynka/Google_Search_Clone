@@ -1,0 +1,36 @@
+{
+  "name": "google-search-clone",
+  "version": "1.0.0",
+  "description": "Google search clone",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./",
+    "dev": "parcel public/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetrStudynka/Google-search-clone.git"
+  },
+  "keywords": [
+    "typescript",
+    "google",
+    "clone"
+  ],
+  "author": "Petr Studýnka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetrStudynka/Google-search-clone/issues"
+  },
+  "homepage": "https://github.com/PetrStudynka/Google-search-clone#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "parcel-bundler": "^1.12.4",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "normalize.css": "^8.0.1"
+  }
+}

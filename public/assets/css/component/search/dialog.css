@@ -1,0 +1,37 @@
+.overlay {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  min-height: 100%;
+  background-color: #b3b3b38f;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.dialog {
+  max-width: 320px;
+  margin: 20vh auto;
+  border-radius: 10px;
+  padding: 10px 10px 20px;
+  border: 1px solid white;
+  background: white;
+  -webkit-box-shadow: 10px 10px 29px 0px rgba(181, 181, 181, 1);
+  -moz-box-shadow: 10px 10px 29px 0px rgba(181, 181, 181, 1);
+  box-shadow: 10px 10px 29px 0px rgba(181, 181, 181, 1);
+}
+
+.dialog-message {
+  color: #080808;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 25px 0 40px;
+}
+
+.dialog-button {
+  width: fit-content;
+  margin: auto;
+}
